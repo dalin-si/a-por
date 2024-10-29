@@ -2,12 +2,12 @@ import streamlit as st
 st.title("AI大模型应用产品")
 col,col1 = st.columns(2)
 with col:
-    st.image("https://tse3-mm.cn.bing.net/th/id/OIP-C.LMcPm-3TvFYIGxlN1z3oDAHaHs?w=180&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7", use_container_width=True)
+    st.image("https://tse3-mm.cn.bing.net/th/id/OIP-C.LMcPm-3TvFYIGxlN1z3oDAHaHs?w=180&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7", use_column_width=True)
     flag = st.button("赛迩慧言",use_container_width=True)
     if flag:
         st.switch_page("pages/huiyan.py")
 with col1:
-    st.image("https://tse2-mm.cn.bing.net/th/id/OIP-C.93nEfEfjgXqLatCAFZi6mwHaJJ?w=151&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7", use_container_width=True)
+    st.image("https://tse2-mm.cn.bing.net/th/id/OIP-C.93nEfEfjgXqLatCAFZi6mwHaJJ?w=151&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7", use_column_width=True)
     flag = st.button("赛迩绘图",use_container_width=True)
     if flag:
         st.switch_page("pages/textTolmage.py")
